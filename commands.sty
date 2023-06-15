@@ -1,0 +1,22 @@
+% COMMANDS
+
+% Text Formatting
+\newcommand{\bold}[1]{\textbf{#1}}
+\newcommand{\italicize}[1]{\textit{#1}}
+
+% Math Equation
+\newcommand{\eq}[1]{
+    \begin{equation}
+        #1
+    \end{equation}
+}
+
+% Figures
+\newcommand{\fig}[2]{
+    \begin{figure}[!ht]
+        \begin{center}
+            \includegraphics[width=0.8\textwidth]{#1}
+            \caption{#2}
+        \end{center}
+    \end{figure}
+}
